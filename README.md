@@ -1,16 +1,18 @@
 # gmail_ui
 
-A new Flutter project.
+Reproduce UI of Gmail Settings page 
+Steps involved: 
+1. Go to your gmail: Top right corner �� click settings �� Click “see all settings” 
+2. You are expected to reproduce General tab only 
+In “General” tab: Reproduce UI for following 4 topics only: 
+2.1. Language & Phone numbers  
+2.2.Default text  
+2.3.Stars  
+Note: Drag and drop feature for moving starts between “in-use” and “not-in-use” should be in  implemented
+Hello24.ai 
+Flutter Developer - Assignment 
+2.4.Signature
 
-## Getting Started
+  ![image](https://github.com/arju7jha/Gmail-Setting-UI/assets/88245601/a3b18212-7814-46be-8578-b9bc71715287)
+ 
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
