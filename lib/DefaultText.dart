@@ -242,5 +242,4 @@ class _DefaultTextSectionState extends State<DefaultTextSection> {
   //     ),
   //   );
   // }
-// ... (Paste the rest of the default text-related code)
 }

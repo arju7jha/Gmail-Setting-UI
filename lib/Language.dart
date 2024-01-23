@@ -53,21 +53,4 @@ class _LanguageState extends State<Language> {
     );
   }
 
-  Widget buildLanguageDropdown() {
-    return DropdownButton<String>(
-      value: selectedLanguage,
-      onChanged: (newValue) {
-        setState(() {
-          selectedLanguage = newValue!;
-        });
-      },
-      items: allLanguages.map<DropdownMenuItem<String>>((String value) {
-        return DropdownMenuItem<String>(
-          value: value,
-          child: Text(value),
-        );
-      }).toList(),
-    );
-  }
-// ... (Paste the rest of the language dropdown-related code)
 }

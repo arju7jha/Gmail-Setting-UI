@@ -10,32 +10,6 @@ class SignaturesSection extends StatefulWidget {
 class _SignaturesSectionState extends State<SignaturesSection> {
   List<String> signatures = [];
 
-  // ... (Copy all the signature-related code starting from buildSignatureSection)
-  // Widget buildSignatureSection() {
-  //   return Column(
-  //     crossAxisAlignment: CrossAxisAlignment.start,
-  //     children: [
-  //       buildAddSignatureButton(),
-  //       const SizedBox(height: 20),
-  //       buildSignaturesBox(),
-  //     ],
-  //   );
-  // }
-  //
-  // Widget buildAddSignatureButton() {
-  //   return ElevatedButton(
-  //     onPressed: () {
-  //       setState(() {
-  //         // Open a dialog to input a new signature
-  //         _showAddSignatureDialog();
-  //       });
-  //     },
-  //     style: ElevatedButton.styleFrom(
-  //       primary: Colors.white, // Set the background color to white
-  //     ),
-  //     child: const Text("Add Signature", style: TextStyle(color: Colors.blue)), // Set the text color to black
-  //   );
-  // }
 
   TextEditingController signatureEditController = TextEditingController();
 
